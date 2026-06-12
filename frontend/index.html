@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Attendance System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Face Attendance System</h1>
+
+        <p class="subtitle">
+            AI Powered Attendance Tracking
+        </p>
+
+        <div class="camera-container">
+
+            <video
+                id="video"
+                autoplay
+                playsinline>
+            </video>
+
+            <canvas id="canvas"></canvas>
+
+        </div>
+
+        <div class="btn-container">
+
+            <button id="openBtn">
+                Open Camera
+            </button>
+
+            <button id="captureBtn">
+                Mark Attendance
+            </button>
+
+            <button id="closeBtn">
+                Close Camera
+            </button>
+
+        </div>
+
+        <div id="result">
+            Waiting for attendance...
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

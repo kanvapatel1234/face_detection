@@ -2,7 +2,7 @@ from datetime import datetime
 
 from database.mongo import attendance_collection
 
-
+ 
 def mark_attendance(name):
 
     today = datetime.now().strftime(
